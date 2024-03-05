@@ -37,7 +37,7 @@ const handleHidden = () => {
         </div>
 
 
-<button onClick={handleHidden}><FaHamburger className="w-20 text-primary"/></button>
+<button className="md:hidden" onClick={handleHidden}><FaHamburger className="w-20 text-primary"/></button>
        
 
       
