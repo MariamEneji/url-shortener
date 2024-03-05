@@ -12,8 +12,17 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          'header-img': 'url("/assets/aurora.png")'
       },
+      colors: {
+        'primary':'#0065fe',
+        'secondary': '#1E3548',
+        'circle': '#E4EFFF',
+        'platform': '#F9FBFD',
     },
+    
+
+    }
   },
   plugins: [],
 };
